@@ -1,0 +1,10 @@
+{
+    "output": {
+        "facebook": {
+            "username": "<facebookEmail>",
+            "password": "<facebookPassword>",
+            "testingName": "<testingName>",
+            "commandPrefix": "/"
+        }
+    }
+}

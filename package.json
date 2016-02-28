@@ -1,0 +1,14 @@
+{
+  "name": "brandnew",
+  "version": "1.0.0",
+  "description": "The following is a new bot for facebook messenger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jane Chester",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
