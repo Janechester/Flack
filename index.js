@@ -35,12 +35,16 @@ login({
             api.sendMessage("To see what dates we have available please jump onto out website at https://pt.hostelsnap.com/publicreservations?_ga=1.248113991.1907977898.1454043607", message.threadID);
               } else if (message.body.toLowerCase().includes("parking")) {
             api.sendMessage("Unfortunately we do not have parking space in the hostel, however there is close by parking for", message.threadID);
-              } else if (message.body.toLowerCase().includes("ok")) {
-            api.sendMessage("Hey there! How can I help you?", message.threadID);
-              } else if (message.body.toLowerCase().includes("wassup")) {
-            api.sendMessage("Hey there! How can I help you?", message.threadID);
-              } else if (message.body.toLowerCase().includes("2222")) {
-            api.sendMessage("Hey there! How can I help you?", message.threadID);
+              } else if (message.body.toLowerCase().includes("storage")) {
+            api.sendMessage("We do provide storage for luggage at an additional cost of $1 per night", message.threadID);
+              } else if (message.body.toLowerCase().includes("how much")) {
+            api.sendMessage("Room are from $30-$35 a night", message.threadID);
+              } else if (message.body.toLowerCase().includes("wtf")) {
+            api.sendMessage("I see we are having some communication troubles! How about you call us at 971 322 3119 or shoot through and email at san-francisco-hostel@gmail.com", message.threadID);
+              } else if (message.body.toLowerCase().includes("what")) {
+            api.sendMessage("I see we are having some communication troubles! \n\n How about you call us at 971 322 3119 \n\n or shoot through and email at san-francisco-hostel@gmail.com antoher message", message.threadID);
+                } else if (message.body.toLowerCase().includes("look like")) {
+            api.sendMessage("rooms look like this ", message.threadID);
 
         } else {
         	api.sendMessage("sorry we didn't understand your question - could you please clarify this?")
